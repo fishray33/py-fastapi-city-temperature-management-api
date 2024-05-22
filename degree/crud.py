@@ -2,7 +2,7 @@ from sqlalchemy import select, insert, delete
 from sqlalchemy.ext.asyncio import AsyncSession
 import datetime
 
-import models
+from . import models
 from .openweather import get_temperature
 
 

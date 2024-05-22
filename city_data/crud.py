@@ -1,8 +1,7 @@
 from sqlalchemy import select, insert, delete, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from . import schemas
-import models
+from . import schemas, models
 
 
 async def get_all_cities(db: AsyncSession,
