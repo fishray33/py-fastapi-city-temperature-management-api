@@ -1,7 +1,7 @@
 import httpx
 
 
-API_KEY = "432fe9e768469ec38b71d2f20145ab01"
+API_KEY = "your key"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 
